@@ -81,6 +81,7 @@ test:
 #
 production:
   <<: *default
-  database: ipay_production
-  username: ipay
-  password: <%= ENV["IPAY_DATABASE_PASSWORD"] %>
+  url: <%= ENV['DATABASE_URL'] %>
+  # database: ipay_production
+  # username: ipay
+  # password: <%= ENV["IPAY_DATABASE_PASSWORD"] %>

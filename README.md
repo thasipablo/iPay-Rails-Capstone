@@ -132,7 +132,7 @@ Install the project:
   rails db:setup
   rails db:migrate
 ```
--
+
 
 ### Usage
 
