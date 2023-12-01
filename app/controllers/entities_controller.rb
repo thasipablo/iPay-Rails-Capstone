@@ -9,10 +9,10 @@ class EntitiesController < ApplicationController
     @entity = Entity.create(entity_params)
     @entity.author = current_user
     if @entity.save
-      flash[:success] = 'Transaction created!'
+      flash[:success] = 'Transaction created succefully'
       redirect_to user_group_path(@entity.author, @entity.group)
     else
-      flash[:error] = 'Something went wrong!'
+      flash[:error] = 'Something went wrong when create transaction'
       render :new
     end
   end
