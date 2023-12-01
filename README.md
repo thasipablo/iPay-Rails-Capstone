@@ -159,11 +159,11 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Bruno Kambere**
+👤 **Pablo Thasi**
 
-- GitHub: [@kambereBr](https://github.com/kambereBr)
-- Twitter: [@kambereBr](https://twitter.com/kambereBr)
-- LinkedIn: [bruno kambere](https://www.linkedin.com/in/bruno-kambere-399447138/)
+- GitHub: [@thasipablo](https://github.com/thasipablo)
+- Twitter: [@thasipablo](https://twitter.com/thasipablo)
+- LinkedIn: [in/thasipablo](https://www.linkedin.com/in/thasipablo/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
