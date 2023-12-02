@@ -79,15 +79,17 @@
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO  -->
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [Live Demo Link](#)
+  [Live Demo Link](https://ipay-app.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 ## Video Demo 
-<a name="video-demo" href="#">Video Demo</a>
+
+  [Video Demo Link](https://www.loom.com/share/bc343b08f8e4475d8494533526642e48?sid=d0154412-aacc-4cdf-a971-534049597e91)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
