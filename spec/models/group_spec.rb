@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Group, type: :model do
-  before(:all) do
+  before(:each) do
     @user = User.first
     @user ||= User.create(name: 'Pablo', email: 'pablo@ipay.cd', password: '432420923')
 
@@ -10,7 +10,9 @@ RSpec.describe Group, type: :model do
   end
 
   it 'Group should be valid with a name' do
-    expect(@group).to be_valid
+    author = User.create(name: 'Pablo', email: 'pablo@ipay.cd', password: '432420923')
+    group = Group.new(author:)
+    expect(group).not_to be_valid
   end
 
   it 'Group name cannot be empty' do

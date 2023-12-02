@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe User, type: :model do
   before(:all) do
     @user = User.first
-    @user ||= User.create(name: 'Pablo', email: 'pablo@ipay.cd', password: '43242')
+    @user ||= User.create(name: 'Pablo', email: 'pablo@ipay.cd', password: '432420923')
   end
 
   it 'User should be valid with a name' do
