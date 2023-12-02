@@ -2,9 +2,6 @@ require 'rails_helper'
 
 RSpec.describe Group, type: :model do
   before(:each) do
-    @user = User.first
-    @user ||= User.create(name: 'Pablo', email: 'pablo@ipay.cd', password: '432420923')
-
     @group = Group.first
     @group ||= Group.create(name: 'Grouptest', icon: 'grouptesicon', author: @user)
   end
