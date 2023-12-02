@@ -12,7 +12,7 @@ RSpec.describe Entity, type: :model do
   it 'Entity should be valid with a name and amount' do
     author = User.create(name: 'Pablo', email: 'pablo@ipay.cd', password: '432420923')
     group = Group.create(author:, name: 'Grouptest')
-    entity = Entity.new(author:, amount: 180, group: group)
+    entity = Entity.new(author:, amount: 180, group:)
     expect(entity).not_to be_valid
   end
 
